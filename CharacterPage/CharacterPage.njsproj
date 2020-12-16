@@ -33,7 +33,6 @@
     <Content Include="img\picture.jpg" />
     <Content Include="mainpage.html" />
     <Content Include="package.json" />
-    <Content Include="picture.jpg" />
     <Content Include="README.md" />
     <Content Include="style.css" />
   </ItemGroup>

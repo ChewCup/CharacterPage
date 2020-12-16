@@ -1,8 +1,6 @@
 var http = require('http');
 var fs = require("fs");
 var url = require("url");
-////////////////////////////////////////////
-
 function mainPage(res) {
     fs.readFile("mainpage.html", function (err, html) {
         res.writeHead(200, { 'Content-Type': 'text/html' });
@@ -10,8 +8,6 @@ function mainPage(res) {
         return res.end();
     });
 }
-
-////////////////////////////////////////////
 http.createServer(function (req, res) {
     res.writeHead(200, { 'Content-Type': 'text/html' });
 
@@ -20,18 +16,4 @@ http.createServer(function (req, res) {
         mainPage(res);
     }
     //res.end();
-
-
-
-
-        
-
-
-
-
-
-
-
-
-
-}).listen(8080); 
+}).listen(8080);
