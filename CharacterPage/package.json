@@ -1,0 +1,9 @@
+{
+  "name": "character-page",
+  "version": "0.0.0",
+  "description": "CharacterPage",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  }
+}
