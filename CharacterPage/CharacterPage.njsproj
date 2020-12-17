@@ -29,6 +29,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="app.js" />
+    <Content Include="appendpage.html" />
     <Content Include="charslist.lis" />
     <Content Include="img\picture.jpg" />
     <Content Include="mainpage.html" />

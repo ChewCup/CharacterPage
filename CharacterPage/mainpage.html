@@ -1,17 +1,22 @@
-<head>
-    <link href="style.css" rel="stylesheet">
-</head>
-<html>
-<body>
-    <form action="/">
-        <label for="name">Your character name:</label>
-        <input type="text" id="name" name="" value="" placeholder="Enter name"><br><br>
 
+<html>
+<head>
+    <link rel="stylesheet" href="style.css" type="'text/css'">
+</head>
+<body>
+    <script>
+        
+    </script>
+    <form action="/append">
+        <label for="name">Your character name:</label>
+        <input type="text" id="name" name="name" value="" placeholder="Enter name"><br><br>
         <label for="class">Class:</label>
-        <select id="selectClass" name="">
+        <select id="selectClass" name="nameclass">
             <option selected value="">--Select your class--</option>
-            <option value="KungFuMaster">K</option>
-            <option value="Warlock">W</option>
+            <option value="KungFuMaster">KungFuMaster</option>
+            <option value="Warlock">Warlock</option>
+            <option value="ForceMaster">ForceMaster</option>
+            <option value="Summoner">Summoner</option>
         </select><br><br>
         <input type="submit" value="Create character">
     </form>
